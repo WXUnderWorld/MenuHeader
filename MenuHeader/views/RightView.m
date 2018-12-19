@@ -1,9 +1,9 @@
 //
 //  RightView.m
-//  MJRefreshExample
+//  MenuHeader
 //
 //  Created by wangxiaolei on 2018/12/18.
-//  Copyright © 2018年 小码哥. All rights reserved.
+//  Copyright © 2018年 wxl. All rights reserved.
 //
 
 #import "RightView.h"

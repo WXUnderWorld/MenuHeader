@@ -1,9 +1,9 @@
 //
 //  DrawerView.m
-//  MJRefreshExample
+//  MenuHeader
 //
-//  Created by wangxiaolei on 2018/12/17.
-//  Copyright © 2018年 小码哥. All rights reserved.
+//  Created by wangxiaolei on 2018/12/18.
+//  Copyright © 2018年 wxl. All rights reserved.
 //
 
 #import "DrawerView.h"
