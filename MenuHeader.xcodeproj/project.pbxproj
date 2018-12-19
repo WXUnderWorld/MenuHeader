@@ -13,6 +13,11 @@
 		9BC99A6221C8E06100751264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC99A6121C8E06100751264 /* Assets.xcassets */; };
 		9BC99A6521C8E06100751264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC99A6321C8E06100751264 /* LaunchScreen.storyboard */; };
 		9BC99A6821C8E06100751264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC99A6721C8E06100751264 /* main.m */; };
+		9BC99A7B21C8E0CC00751264 /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC99A7121C8E0CC00751264 /* MenuButton.m */; };
+		9BC99A7C21C8E0CC00751264 /* RightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC99A7221C8E0CC00751264 /* RightView.m */; };
+		9BC99A7D21C8E0CC00751264 /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC99A7321C8E0CC00751264 /* MenuModel.m */; };
+		9BC99A7F21C8E0CC00751264 /* DrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC99A7521C8E0CC00751264 /* DrawerView.m */; };
+		9BC99A8021C8E0CC00751264 /* MenuHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC99A7821C8E0CC00751264 /* MenuHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		9BC99A6421C8E06100751264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BC99A6621C8E06100751264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BC99A6721C8E06100751264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BC99A6F21C8E0CC00751264 /* DrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerView.h; sourceTree = "<group>"; };
+		9BC99A7021C8E0CC00751264 /* MenuHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuHeaderView.h; sourceTree = "<group>"; };
+		9BC99A7121C8E0CC00751264 /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
+		9BC99A7221C8E0CC00751264 /* RightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightView.m; sourceTree = "<group>"; };
+		9BC99A7321C8E0CC00751264 /* MenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuModel.m; sourceTree = "<group>"; };
+		9BC99A7521C8E0CC00751264 /* DrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerView.m; sourceTree = "<group>"; };
+		9BC99A7621C8E0CC00751264 /* RightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightView.h; sourceTree = "<group>"; };
+		9BC99A7721C8E0CC00751264 /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
+		9BC99A7821C8E0CC00751264 /* MenuHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuHeaderView.m; sourceTree = "<group>"; };
+		9BC99A7921C8E0CC00751264 /* MenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 		9BC99A5721C8E06000751264 /* MenuHeader */ = {
 			isa = PBXGroup;
 			children = (
+				9BC99A6E21C8E0CC00751264 /* views */,
 				9BC99A5821C8E06000751264 /* AppDelegate.h */,
 				9BC99A5921C8E06000751264 /* AppDelegate.m */,
 				9BC99A5B21C8E06000751264 /* ViewController.h */,
@@ -69,6 +85,23 @@
 				9BC99A6721C8E06100751264 /* main.m */,
 			);
 			path = MenuHeader;
+			sourceTree = "<group>";
+		};
+		9BC99A6E21C8E0CC00751264 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9BC99A7021C8E0CC00751264 /* MenuHeaderView.h */,
+				9BC99A7821C8E0CC00751264 /* MenuHeaderView.m */,
+				9BC99A7721C8E0CC00751264 /* MenuButton.h */,
+				9BC99A7121C8E0CC00751264 /* MenuButton.m */,
+				9BC99A7921C8E0CC00751264 /* MenuModel.h */,
+				9BC99A7321C8E0CC00751264 /* MenuModel.m */,
+				9BC99A6F21C8E0CC00751264 /* DrawerView.h */,
+				9BC99A7521C8E0CC00751264 /* DrawerView.m */,
+				9BC99A7621C8E0CC00751264 /* RightView.h */,
+				9BC99A7221C8E0CC00751264 /* RightView.m */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC99A8021C8E0CC00751264 /* MenuHeaderView.m in Sources */,
+				9BC99A7B21C8E0CC00751264 /* MenuButton.m in Sources */,
 				9BC99A5D21C8E06000751264 /* ViewController.m in Sources */,
 				9BC99A6821C8E06100751264 /* main.m in Sources */,
+				9BC99A7C21C8E0CC00751264 /* RightView.m in Sources */,
+				9BC99A7D21C8E0CC00751264 /* MenuModel.m in Sources */,
 				9BC99A5A21C8E06000751264 /* AppDelegate.m in Sources */,
+				9BC99A7F21C8E0CC00751264 /* DrawerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
